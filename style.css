@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color:#f7f8f8;
+}
+
+.nav{
+    background-color: #333333;
+    border-top: 10px solid #9900FE;
+    display:flex;
+    align-items: center;
+    height: 50px;
+    color: #FFFFFF ;
+}
+
+input{
+    font-family: 'Arial Narrow';
+    background-color: white;
+    width: 500px;
+    margin-left: 100px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: 17px
+    
+}
+
+.btn {
+    font-family: 'Arial Narrow';
+    background-color: #9900FE;
+    box-shadow: 3px 1px #212529;
+    color: white;
+    border-color: #212529;
+    margin-left: 80px;
+    width: 90px;
+    height: 30px;
+    font-size: 17px;
+}
+
+.video{
+    margin-left: 20px;
+    margin-top: 40px;
+    border: 1px #212529;
+    font-family: 'Arial Narrow';
+    cursor: pointer;
+}
+
+
+h1, p{
+    margin-left: 20px;
+    font-family: 'Arial Narrow';
+}
+
+.user {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.avatar img {
+    height: 40px;
+}
+
+.username {
+    color: #9900FE;
+    font-family: 'Arial Narrow';
+}
+
+.btn1 {
+    font-family: 'Arial Narrow';
+    background-color: #9900FE;
+    box-shadow: 3px 1px #212529;
+    color: white;
+    border-color: #212529;
+    width: 100px;
+    height: 30px;
+    margin-left: 500px;
+}
+
+.img1{
+    width: 200px;
+    height: 120px;
+    font-family: 'Arial Narrow';
+    font-size: 15px;
+}
+
+.row {
+    display: flex;
+    width: 220px;
+    height: 133px;
+    margin-left: 900px;
+    margin-right: 0px;
+    font-family: 'Arial Narrow';
+    position: relative;
+    bottom: 700px;
+}
+
+.video-small{
+    font-family: 'Arial Narrow';
+    font-size: 15px;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Vista Previa</title>
+</head>
+
+<body>
+    <div>
+        <div class="nav">
+            <h1>VideoLab</h1> <input type="search" placeholder="Search">
+            <button class="btn">Login </button>
+        </div>
+        <div class="container">
+            <div class="video" onmouseover="reproducirVideo(this)" onmouseout="pausarVideo(this)">
+                <video id="video" width="740" height="560" controls>
+                    <source src="video_vela.mp4" type="video/mp4">
+                    Tu navegador no admite la etiqueta de video.
+                </video>
+                <h2>Bella Birthday´s - Eugenia Remark</h2>
+            </div>
+            <p>1.3K views | June 18, 2021</p>
+        </div>
+        <div class="user">
+            <div class="avatar">
+                <img src="user.png" alt="avatar">
+            </div>
+            <div class="username">
+                <p>Fer_Vivero</p>
+            </div>
+            <button class="btn1">Subscribe</button>
+        </div>
+        <div class="row">
+            <div class="column">
+                <h3 class="sub-header">Up Next</h3>
+                <hr>
+                <div class="video-small">
+                    <video width="200" height="120" controls>
+                        <source src="Bella´s_Book.mp4" type="video/mp4">
+                        Tu navegador no admite la etiqueta de video.
+                    </video>
+                    <span class="video-title">Bella´s_Book</span>
+                </div>
+
+                <div class="video-small">
+                    <video width="200" height="120" controls>
+                        <source src="Bella´s_Castle.mp4" type="video/mp4">
+                        Tu navegador no admite la etiqueta de video.
+                    </video>
+                    <span class="video-title">Bella´s_Castle</span>
+                </div>
+
+                <div class="video-small">
+                    <video width="200" height="120" controls>
+                        <source src="Bella´s_Roses.mp4" type="video/mp4">
+                        Tu navegador no admite la etiqueta de video.
+                    </video>
+                    <span class="video-title">Bella´s_Roses</span>
+                </div>
+
+                <div class="img1">
+                    <img width="200" height="120" src="Bella´s_Mirror.jpg" alt="Bella´s_Mirror">
+                    <span class="video-title">Bella´s_Mirror</span>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>
