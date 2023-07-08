@@ -15,10 +15,11 @@
             <h1>VideoLab</h1> <input type="search" placeholder="Search">
             <button class="btn">Login </button>
         </div>
-        <div class="container">
-            <div class="video" onmouseover="reproducirVideo(this)" onmouseout="pausarVideo(this)">
+        <div class="container"> 
+            <!-- El video se reproduce solo si se abre el inspector y se va a la consola -->
+            <div class="video" loop onmouseover="reproducirVideo(this)" onmouseout="pausarVideo(this)">
                 <video id="video" width="740" height="560" controls>
-                    <source src="video_vela.mp4" type="video/mp4">
+                    <source src="video_vela.mp4" type="video/mp4" muted="muted">
                     Tu navegador no admite la etiqueta de video.
                 </video>
                 <h2>Bella Birthday´s - Eugenia Remark</h2>
